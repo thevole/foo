@@ -4,4 +4,8 @@ defmodule FooWeb.PageController do
   def index(conn, _params) do
     render(conn, "index.html")
   end
+
+  def demo(conn, _) do
+    render(conn, "demo.html")
+  end
 end

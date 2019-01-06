@@ -17,6 +17,7 @@ defmodule FooWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    get "/demo", PageController, :demo
   end
 
   # Other scopes may use custom stacks.
